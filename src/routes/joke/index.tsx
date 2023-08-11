@@ -1,11 +1,5 @@
 import { component$ } from "@builder.io/qwik";
-import {
-  routeLoader$,
-  routeAction$,
-  Form,
-  zod$,
-  z,
-} from "@builder.io/qwik-city";
+import { routeLoader$, routeAction$, Form } from "@builder.io/qwik-city";
 
 export const useJokeVoteAction = routeAction$(async (props) => {
   console.log("VOTE", props);
